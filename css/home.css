@@ -109,15 +109,22 @@
     width: 1000px;
     margin: 0 auto;
 }
-.p2-bottom video{
+/* .p2-bottom video{
     width: 100%;
     border: solid 10px #F0F0F0;
     border-radius: 30px;
-}
+} */
 .side-wrap{
     width: 1200px;
     margin: 0 auto;
+    height: 70%;
     /* background-color: burlywood; */
+}
+#video1{
+    width: 100%;
+    height: 600px;
+    border: solid 10px #F0F0F0;
+    border-radius: 30px;
 }
 .video-side{
     position: absolute;
