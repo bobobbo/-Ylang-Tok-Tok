@@ -340,9 +340,9 @@ h2{font-family: bing;}
     float: right;
     width: 600px;
 }
-.p5-right-wrap video{
+.p5-right-wrap .video-sunmool{
     width: 100%;
-    height: 100%;
+    height: 350px;
 }
 /* 비디오 슬라이드 */
 .p5-slide{
