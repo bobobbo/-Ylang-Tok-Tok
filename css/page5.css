@@ -1,0 +1,335 @@
+/* main */
+#main{position:relative;max-width:2560px;margin-right:auto;margin-left:auto}
+#main .section{width:100%;color:#fff;box-sizing:border-box; padding-top: 70px;}
+#main .section:first-child{height:100vh;}
+#main .section:nth-child(1){height: 119vh;}
+#main .section:nth-child(2){
+    background-image: url(../images/마음카드/2p_마음카드배너.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 659px;}
+#main .section:nth-child(3){height: 260vh;}
+#main .section:nth-child(4){
+    background-image: url(../images/마음카드/4p_하단배너.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 85vh;
+}
+#main .section:nth-child(5){background-color:#2C2A27; height: 380px;}
+#main .section .section-content{width:100%;height:calc(100vh - var(--gn-height));margin-right:auto;margin-left:auto}
+
+/* 1p */
+#main .section:nth-child(1){
+    background-image: url(../images/마음카드/1p_배경.png);
+    width: 100vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.top-wrap{
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.top-wrap h2{
+    margin-top: 50px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-shadow: 0px 6px 0px #f1e9cb;
+    letter-spacing: -1px;
+}
+.top-wrap p{
+    font-size: 20px;
+    line-height: 33px;
+}
+#bottom-wrap{
+    padding: 0px 30px 0px 85px;
+    width: 30%;
+    margin: 0 auto;
+    background-color: lightsteelblue;
+}
+.cards{
+    position: relative;
+    margin-top: 20px;
+    top: -5px;
+    left: -10px;
+}
+.top-card{
+    z-index: 3;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    transform: rotate(0deg);
+}
+.cards:hover .top-card{
+    transform: rotate(-2deg);
+    /* transition: all .35s; */
+}
+/* top-card hover시
+    z-index: 3;
+    width: 80%;
+    position: absolute;
+    top: 0;
+*/
+.top-card img{
+    width: 100%;
+    height: 100%;
+}
+.so-angry-card{
+    z-index: 2;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    /* opacity: 0; */
+}
+.cards:hover .so-angry-card{
+    position: absolute;
+    top: 10px; 
+    left: 140px;
+    transition: all 1s;
+    /* opacity: 1; */
+}
+/* so-angry hover시
+    z-index: 2;
+    width: 90%;
+    position: absolute;
+    top: 10px; 
+    left: 140px;
+*/
+.so-angry-card img{
+    width: 100%;
+    height: 100%;
+}
+.mood-card{
+    z-index: 1;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    /* opacity: 0; */
+}
+.cards:hover .mood-card{
+    position: absolute;
+    top: 10px;
+    right: 220px;
+    transition: all 1s;
+    /* opacity: 1; */
+}
+/* mood-card hover시
+    z-index: 1;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    right: 220px;
+*/
+.mood-card img{
+    width: 100%;
+    height: 100%;
+}
+.sad-card{
+    z-index: 1;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.cards:hover .sad-card{
+    position: absolute;
+    top: 40px;
+    left: 260px;
+    transition: all 1s;
+    opacity: 1;
+}
+/* sad-card hover시
+    z-index: 1;
+    width: 90%;
+    position: absolute;
+    top: 40px;
+    left: 260px;
+*/
+.sad-card img{
+    width: 100%;
+    height: 100%;
+}
+.happy-card{
+    width: 90%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.cards:hover .happy-card{
+    position: absolute;
+    top: 40px;
+    right: 330px;
+    transition: all 1s;
+    opacity: 1;
+}
+/* happy-card hover시
+    width: 90%;
+    position: absolute;
+    top: 40px;
+    right: 330px;
+*/
+.happy-card img{
+    width: 100%;
+    height: 100%;
+}
+.angry-card{
+    width: 90%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.cards:hover .angry-card{
+    position: absolute;
+    top: 80px;
+    left: 370px;
+    transition: all 1s;
+    opacity: 1;
+}
+/* angry-card hover시
+    width: 90%;
+    position: absolute;
+    top: 80px;
+    left: 370px;
+*/
+.angry-card img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 2p */
+.p2-wrap{
+    width: 90vw;
+    margin: 0 auto;
+}
+.p2-wrap h2{
+    font-size: 60px;
+    color:#fff;
+    margin-bottom: 20px;
+    margin-top: 110px;
+    letter-spacing: -1px;
+}
+.p2-wrap p{
+    font-size: 23px;
+    line-height: 36px;
+    color: #fff;
+}
+
+
+/* 3p */
+.p3-top-wrap{
+    width: 90vw;
+    height: 500px;
+    margin:0 auto;
+    /* background-color: salmon; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.top-left{
+    float: left;
+    margin-top: 50px;
+}
+.top-left h2{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+.top-left p{
+    font-size: 23px;
+    line-height: 36px;
+}
+.p3-top-right{
+    margin-top: 70px;
+    float: right;
+    width: 45%;
+}
+.p3-top-right img{
+    width: 100%;
+    height: 100%;
+}
+/* mid */
+.mid-wrap{
+    width: 90vw;
+    height: 500px;
+    margin:0 auto;
+    /* background-color: rgb(255, 235, 235); */
+    margin-bottom: 40px;
+}
+.mid-left{
+    float: left;
+    margin-top: 50px;
+}
+.mid-left h2{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+.mid-left p{
+    font-size: 23px;
+    line-height: 36px;
+}
+.mid-right{
+    margin-top: 70px;
+    float: right;
+    width: 45%;
+}
+.mid-right img{
+    width: 100%;
+    height: 100%;
+}
+.bottom-wrap{
+    width: 90vw;
+    height: 500px;
+    margin:0 auto;
+    /* background-color: rgb(255, 208, 169); */
+}
+.bottom-left{
+    float: left;
+    margin-top: 50px;
+}
+.bottom-left h2{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+.bottom-left p{
+    font-size: 23px;
+    line-height: 36px;
+}
+.bottom-right{
+    margin-top: 70px;
+    float: right;
+    width: 45%;
+}
+.bottom-right img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 푸터 */
+.footer-wrap{
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    margin-top: 20px;
+}
+.right p{
+    color: white;
+}
+
+/* footer */
+#global-footer{position:relative;width:100%;height:80px;background-color:#999}
+#global-footer::before{content:"";display:block;position:absolute;top:0;right:0;left:0;width:100%;height:0;border-top:1px solid #fff}
+#global-footer .gf-content{width:980px;margin-right:auto;margin-left:auto;text-align:center;padding-top:20px;padding-bottom:40px}
+#global-footer .gf-content h2{color:#fff;font-size:12px;font-weight:400;line-height:20px}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>나의표정만들기</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/page2.css"/>
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<h1 class="blind">Layout</h1>
+<nav id="global-nav">
+    <div class="gn-content">
+        <ul class="gn-list" id="list">
+            <li><a href="index.html">일랑톡톡</a></li><li>
+                <a id="menu2"><span>브랜드 기획</span></a></li><li>
+                <a><span class="menu3">서비스 소개 ▼</span></a>
+                <ul class="sub-list">
+                    <a href="마음친구들.html"><li>마음 친구들</li></a>
+                    <a href="나의표정만들기.html"><li>나의 표정 만들기</li></a>
+                    <a href="마음달력.html"><li>마음 달력</li></a>
+                    <a href="마음화분.html"><li>마음 화분</li></a>
+                    <a href="마음카드.html"><li>마음 카드</li></a>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<main>
+<div id="main">
+    <section class="section">
+        <div class="section-content">
+            <div class="left-content">
+                <div data-aos="zoom-out" data-aos-duration="1000" class="icon">
+                    <img src="./images/표정만들기/1p_표정아이콘.png">
+                </div>
+                <h2>나의 표정 만들기</h2>
+                <p>아이에게 오늘 자신이 느낀 기분을 되돌아보고<br>
+                    생각해 볼 수 있는 시간을 주며,<br>
+                    자신의 기분을 단어로 표현할 수 있게 합니다.</p>
+            </div>
+            <div class="right-content">
+                <p>나의 표정만들기를 체험해봐요!</p><br>
+                <div style="cursor: move;" class="obj1" id="draggable1">
+                    <img src="./images/표정만들기/1p_눈웃음.png">
+                </div>
+                <div style="cursor: move;" class="obj2" id="draggable2">
+                    <img src="./images/표정만들기/1p_감은눈.png">
+                </div>
+                <div style="cursor: move;" class="obj3" id="draggable3">
+                    <img src="./images/표정만들기/1p_뜬눈.png">
+                </div>
+                <div style="cursor: move;" class="obj4" id="draggable4">
+                    <img src="./images/표정만들기/1p_웃는눈.png">
+                </div>
+                <div style="cursor: move;" class="obj5" id="draggable5">
+                    <img src="./images/표정만들기/1p_웃는입.png">
+                </div>
+                <div style="cursor: move;" class="obj6" id="draggable6">
+                    <img src="./images/표정만들기/1p_찡그린입.png">
+                </div>
+                <div style="cursor: move;" class="obj7" id="draggable7">
+                    <img src="./images/표정만들기/1p_코.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="section2">
+        <div class="section-content">
+            <div class="p2-wrap">
+                <p><span class="keyword">서비스 알아보기</span></p>
+                <div data-aos="zoom-out" data-aos-duration="1000" class="p2-left-content">
+                    <h2>나의 표정을 만들어봐요</h2>
+                    <p>눈, 코, 입 등 표정 요소들을 자유롭게 선택하여<br>
+                        오늘 나의 기분을 표현해 볼 수 있습니다.</p>
+                </div>
+                <div class="p2-right-content">
+                    <div class="service">
+                        <img src="./images/표정만들기/2p_서비스사진1.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-content">
+            <div class="top-content">
+                <div class="p3-title">
+                    <img style="float: left;" src="./images/표정만들기/3p_표정요소들.png">
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" class="p3top-text">
+                    <p>눈썹, 눈, 입, 코, 얼굴별로 각 요소가 나뉘어져 있으며,<br>
+                        다양한 조합으로 여러가지 표정들을 만들어볼 수 있습니다.</p>
+                </div>
+            </div>
+            <div class="bottom-content">
+                <div class="sketch">
+                    <img src="./images/표정만들기/3p_스케치북.png">
+                    <div class="tab-wrap">
+                      <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'eyebrow')">눈썹</button>
+                        <button class="tablinks" onclick="openCity(event, 'eyes')">눈</button>
+                        <button class="tablinks" onclick="openCity(event, 'mouth')">입</button>
+                        <button class="tablinks" onclick="openCity(event, 'nose')">코</button>
+                        <button class="tablinks" onclick="openCity(event, 'face')">얼굴</button>
+                      </div>
+                      
+                      <div id="eyebrow" class="tabcontent">
+                            <img src="./images/표정만들기/3p_눈썹요소.png">
+                      </div>
+                      
+                      <div id="eyes" class="tabcontent">
+                        <img src="./images/표정만들기/3p_눈요소.png">
+                      </div>
+                      
+                      <div id="mouth" class="tabcontent">
+                        <img src="./images/표정만들기/3p_입요소.png">
+                      </div>
+                      
+                      <div id="nose" class="tabcontent">
+                        <img src="./images/표정만들기/3p_코요소3.png">
+                      </div>
+                      
+                      <div id="face" class="tabcontent">
+                        <img src="./images/표정만들기/3p_얼굴요소.png">
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-content">
+            <div class="p4-wrap">
+                <div data-aos="zoom-out" data-aos-duration="1000" class="p4-left-content">
+                    <h2>나의 표정은<br>
+                        어떤 기분일까?</h2>
+                    <p>완성된 표정에 대한 세 가지 질문을 통해,<br>
+                        자신의 기분을 단어로 표현해 볼 수 있도록 유도합니다.<br>
+                        대답은 자동으로 녹음되어 추후 전문가와 연계하여<br>
+                        상담을 진행할 수 있습니다.</p>
+                </div>
+                <div class="p4-right-content">
+                    <div class="service">
+                        <img src="./images/표정만들기/4p_서비스사진2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-content">
+            <div class="footer-wrap">
+                <div class="left">
+                    <img src="./images/마음친구들/6p_바텀로고.png">
+                </div>
+                <div class="right">
+                    <p>일랑톡톡은 감정에 대한 이해가 부족하고, 적절한 감정 표현에 서툰 아이들에게<br>
+                        아이들 스스로가 느끼고 있는 감정에 대해 이해하고 명확히 표현할 수 있게 도와줍니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</main>
+<a id="btn-top" href="#top"><span>Top</span></a>
+<script src="./js/libs/jquery/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src="./js/script.js" type="text/javascript"></script>
+<script src="./js/drag.js"></script>
+<script src="./js/faceSticker.js" type="text/javascript"></script>
+<script src="./js/scrollDown.js"></script>
+<script src="vendor/gsap/TweenMax.min.js"></script>
+<script src="vendor/gsap/ScrollToPlugin.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>

@@ -1,0 +1,413 @@
+/* main */
+h2{font-family: bing;}
+#main{position:relative;max-width:2560px;margin-right:auto;margin-left:auto}
+#main .section{width:100%;color:#fff;box-sizing:border-box; padding-top: 70px;}
+#main .section:first-child{height:100vh;}
+#main .section:nth-child(1){background-color:#F8F8F8;}
+#main .section:nth-child(2){background-color:#fff; height: 115vh;}
+#main .section:nth-child(3){background-color:#fff; height: 100vh;}
+#main .section:nth-child(4){ height: 160vh;}
+#main .section:nth-child(5){ height: 100vh;}
+#main .section:nth-child(6){background-color:#2C2A27; height: 380px;}
+#main .section .section-content{width:100%;height:calc(100vh - var(--gn-height));margin-right:auto;margin-left:auto}
+
+/* 1p */
+#main .section:nth-child(1){
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/마음친구들/1p_마음친구들키비주얼5.png);
+    background-size: 45.1%;
+    background-repeat: no-repeat;
+}
+.right-content{
+    float: right;
+    width: 55vw;
+    height: 90vh;
+    /* background-color: darkkhaki; */
+}
+.icon-wrap{
+    width: 230px;
+    height: 150px;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.icon-wrap img{
+    width: 100%;
+    height: 100%;
+}
+.p1-text{
+    margin-left: 70px;
+}
+.p1-text h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-shadow: 0px 6px 0px #e7e7e7;
+    letter-spacing: -1px;
+}
+.p1-text p{
+    font-size: 20px;
+    line-height: 33px;
+}
+
+/* 2p */
+#main .section:nth-child(2){
+    background-image: url(../images/마음친구들/2p_캐릭터배경2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 115vh;
+}
+.p2-content-wrap{
+    width: 90vw;
+    height: 90vh;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+.keyword{
+    font-size: 30px;
+    font-family: bing;
+    color: #363636;
+}
+.charactors-wrap{
+    width: 80vw;
+    height: 84vh;
+    /* background-color: blue; */
+    margin: 0 auto;
+}
+
+/* tab캐릭터소개 css */
+.tablink {
+    background-color: rgb(250, 250, 250);
+    color: rgb(58, 58, 58);
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 23px;
+    font-family: bing;
+    width: 130px;
+    height: 80px;
+    border-radius: 25px;
+    margin-right: 20px;
+    /* text-shadow: 0px 1px 2px #696969; */
+    border: 3px solid #dfdfdf;
+    box-shadow: 0px 7px 0px #dfdfdf;
+    letter-spacing: -1px;
+}
+/* .tablink:first-child{
+    box-shadow: 0px 7px 0px #FED230;
+    border: 3px solid #FFE550;
+}  
+.tablink:nth-child(2){
+    box-shadow: 0px 7px 0px #B7E8FE;
+    border: 3px solid #B7E8FE;
+}
+.tablink:nth-child(3){
+    box-shadow: 0px 7px 0px #E71117;
+    border: 3px solid #F08B8C;
+}
+.tablink:nth-child(4){
+    box-shadow: 0px 7px 0px #59C824;
+    border: 3px solid #9FED7A;
+}
+.tablink:nth-child(5){
+    box-shadow: 0px 7px 0px #A180A6;
+    border: 3px solid #C69CCC;
+}
+.tablink:nth-child(6){
+    box-shadow: 0px 7px 0px #656565;
+    border: 3px solid #959595;
+} */
+
+.btn-wrap{
+    width: 900px;
+    margin: 0 auto;
+}
+    
+.tablink:hover {
+  background-color: rgb(252, 252, 252);
+  transition: 0.3s;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  /* text-align: center; */
+  width: 80vw;
+  height: 550px;
+  margin: 0 auto;
+  letter-spacing: -1px;
+}
+
+/* #happy {background-color:#FED230;} */
+.p2-left{
+    float: left;
+    width: 400px;
+    margin-right: 150px;
+}
+.p2-left img{
+    width: 100%;
+    height: 100%;
+}
+.p2-right{
+    margin-top: 80px;
+    float: right;
+    margin-right: 30px;
+}
+.p2-right h2{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #141414;
+    letter-spacing: -1px;
+}
+.p2-right h3{
+    font-size: 25px;
+    font-family: bing;
+    color: #464646;
+    margin-bottom: 30px;
+}
+.p2-right p{
+    font-size: 23px;
+    line-height: 36px;
+}
+.p2-happy{
+    margin-left: 50px;
+}
+.p2-sad{
+    width: 370px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.p2-soSad{
+    margin-left: 50px;
+}
+.p2-sad img{
+    width: 100%;
+    height: 100%;
+}
+.p2-soAngry{
+    margin-left: 80px;
+}
+.p2-angry{
+    width: 220px;
+    /* height: 500px; */
+    margin-left: 130px;
+}
+.p2-angry img{
+    width: 100%;
+    height: 100%;
+}
+.p2-talk{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/* #sad {background-color:#DDF4FF;}
+#soAngry {background-color:#E71117;}
+#angry {background-color:#59C824;}
+#soSad {background-color:#A180A6;}
+#talk {background-color:#656565;} */
+/* 여기까지 */
+
+/* 3p */
+.p3-cha-text{
+    float: right;
+    /* background-color: coral; */
+    margin-right: 90px;
+    margin-top: 130px;
+}
+.p3-cha-text h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+.p3-cha-text p{
+    font-size: 23px;
+    line-height: 36px;
+}
+.p3-content-wrap{
+    width: 90vw;
+    height: 90vh;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+.p3-leftContent{
+    float: left;
+    width: 550px;
+    height: 430px;
+    margin-top: 70px;
+}
+.p3-leftContent img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 4p */
+
+#main .section:nth-child(4){
+    background-image: url(../images/마음친구들/4p_배경.png);
+    width: 100vw;
+    height: 160vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p4-top{
+    width: 100%;
+    color: #000;
+}
+.p4top-wrap{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    margin-top: 100px;
+}
+.p4top-wrap h2{
+    font-size: 70px;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
+}
+.p4top-wrap p{
+    font-size: 23px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+.p4-left-wrap{
+    width: 90vw;
+    height: 90vh;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+.p4-leftContent{
+    float: left;
+    width: 650px;
+    height: 480px;
+    margin-top: 70px;
+}
+.p4-leftContent img{
+    width: 100%;
+    height: 100%;
+}
+.p4-right-wrap{
+    width: 90vw;
+    height: 90vh;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+.p4-rightContent{
+    float: right;
+    width: 650px;
+    height: 480px;
+    margin-top: 70px;
+}
+.p4-rightContent img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 5p */
+#main .section:nth-child(5){
+    width:100vw;
+    height: 100vh;
+    background-image: url(../images/마음친구들/5p_배경.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.p5-wrap{
+    width: 90vw;
+    height: 90vh;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+.p5-leftContent{
+    margin-top: 150px;
+    float: left;
+}
+.p5-leftContent h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+.p5-leftContent p{
+    font-size: 23px;
+    line-height: 36px;
+}
+.p5-right-wrap{
+    margin-top: 100px ;
+    float: right;
+    width: 600px;
+}
+.p5-right-wrap video{
+    width: 100%;
+    height: 100%;
+}
+/* 비디오 슬라이드 */
+.p5-slide{
+    position: relative;
+    margin-left: 61px;
+}
+.p5-slide button{
+  position: absolute;
+  z-index: 10;
+  top: 40%;
+  transform: translateY(450%);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-style: none;
+}
+.p5-slide button::before{
+    font-family: 'xeicon';
+    color: #fff;
+    font-size: 30px;
+}
+.p5-slide button.slick-prev{
+  left: 200px;
+  font-size: 0;
+  color: transparent;
+  opacity: 0.2;
+}
+.p5-slide button.slick-prev:hover{
+    opacity: 1;
+}
+.p5-slide button.slick-prev::before{
+    content:"\e93d";
+}
+.p5-slide button.slick-next{
+    right: 200px;
+    font-size: 0;
+    color: transparent;
+    opacity: 0.2;
+}
+.p5-slide button.slick-next:hover{
+    opacity: 1;
+}
+.p5-slide button.slick-next::before{
+    content: "\e940";
+}
+
+/* 6p푸터 */
+.footer-wrap{
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    margin-top: 20px;
+}
+.right p{
+    color: white;
+}
+/* footer */
+#global-footer{position:relative;width:100%;height:80px;background-color:#999}
+#global-footer::before{content:"";display:block;position:absolute;top:0;right:0;left:0;width:100%;height:0;border-top:1px solid #fff}
+#global-footer .gf-content{width:980px;margin-right:auto;margin-left:auto;text-align:center;padding-top:20px;padding-bottom:40px}
+#global-footer .gf-content h2{color:#fff;font-size:12px;font-weight:400;line-height:20px}

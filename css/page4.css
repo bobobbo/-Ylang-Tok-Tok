@@ -1,0 +1,193 @@
+/* main */
+#main{position:relative;max-width:2560px;margin-right:auto;margin-left:auto}
+#main .section{width:100%;color:#fff;box-sizing:border-box; padding-top: 70px;}
+#main .section:first-child{height:100vh;}
+#main .section:nth-child(1){background-color:#FFF7F7;}
+#main .section:nth-child(2){ height: 150vh;}
+#main .section:nth-child(3){ height: 100vh;}
+#main .section:nth-child(4){background-color:#333; height: 380px;}
+#main .section .section-content{width:100%;height:calc(100vh - var(--gn-height));margin-right:auto;margin-left:auto}
+
+/* 1p */
+.p1-wrap{
+    width: 85vw;
+    background-color: beige;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.p1-left{
+    position: relative;
+    float: left;
+    width: 40%;
+}
+.p1-left img{
+    width: 100%;
+    height: 100%;
+}
+.plant{
+    position: absolute;
+    width: 40%;
+    top: 100px;
+    left: 42%;
+}
+.plant img{
+    width: 100%;
+    height: 100%;
+}
+.p1-right{
+    float: right;
+    width: 48%;
+    /* background-color: brown; */
+    margin-top: 150px;
+}
+.p1-right h2{
+    font-size: 60px;
+    color: #343946;
+    text-shadow: 0px 6px 0px #ffe1e1;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+.p1-right p{
+    font-size: 20px;
+    line-height: 33px;
+    color: #272727;
+    /* letter-spacing:1px; */
+}
+
+/* 2p */
+#main .section:nth-child(2){
+    background-image: url(../images/마음화분/2p_마음화분움짤.gif);
+    background-size: 80%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.keyword{
+    font-size: 30px;
+    font-family: bing;
+    color: #363636;
+    margin-left: 70px;
+}
+.p2-wrap{
+    position:relative;
+    width: 90vw;
+    /* height: 100px; */
+    /* background-color: cornflowerblue; */
+    margin: 0 auto;
+    margin-top: 98px;
+}
+.p2-left-img{
+    position: absolute;
+    left: 8%;
+    width: 45%;
+    margin-top: 135px;
+}
+.p2-left-img img{
+    width: 100%;
+    height: 100%;
+}
+.p2-right{
+    position: absolute;
+    right: 0;
+    /* background-color: lightcoral; */
+    margin-top: 240px;
+}
+.imogi{
+    /* background-color: rgb(170, 170, 170); */
+    margin-bottom: 25px;
+}
+.happy{
+    width: 20%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.happy img{
+    width: 100%;
+}
+.sad{
+    width: 20%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.sad img{
+    width: 100%;
+}
+.angry{
+    width: 20%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.angry img{
+    width: 100%;
+}
+.bubble-text{
+    width: 62%;
+}
+.bubble-text img{
+    width: 100%;
+}
+
+/* 3p */
+
+#main .section:nth-child(3){
+    background-image: url(../images/마음화분/3p_배경.png);
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.p3-wrap{
+    width: 90vw;
+    margin: 0 auto;
+    /* background-color: lightgreen; */
+}
+.p2-left{
+    margin-top: 110px;
+    width: 45vw;
+    /* background-color: lightpink; */
+    float: left;
+}
+.p2-left h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+.p2-left p{
+    font-size: 23px;
+    line-height: 36px;
+}
+.p3-right{
+    margin-top: 50px;
+    width: 45%;
+    /* background-color: lightskyblue; */
+    float: right;
+}
+.p3-right img{
+    width: 100%;
+    height: 100%;
+}
+/* 푸터 */
+.footer-wrap{
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    margin-top: 20px;
+}
+.right p{
+    color: white;
+}
+
+/* footer */
+#global-footer{position:relative;width:100%;height:80px;background-color:#999}
+#global-footer::before{content:"";display:block;position:absolute;top:0;right:0;left:0;width:100%;height:0;border-top:1px solid #fff}
+#global-footer .gf-content{width:980px;margin-right:auto;margin-left:auto;text-align:center;padding-top:20px;padding-bottom:40px}
+#global-footer .gf-content h2{color:#fff;font-size:12px;font-weight:400;line-height:20px}
