@@ -50,12 +50,12 @@ function onClickBtnTop(e){
     TweenMax.to(window, 0.45, {scrollTo: {y: 0}, ease: Quad.easeInOut});
 }
 
-$(document).on('ready', function() {
-  $(".lazy").slick({
-    lazyLoad: 'ondemand', // ondemand progressive anticipated
-    infinite: true
-  });
-});
+// $(document).on('ready', function() {
+//   $(".lazy").slick({
+//     lazyLoad: 'ondemand', // ondemand progressive anticipated
+//     infinite: true
+//   });
+// });
 
 // tab캐릭터소개
 function openCity(cityName,elmnt,color) {
