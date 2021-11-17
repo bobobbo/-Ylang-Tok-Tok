@@ -1,3 +1,7 @@
+p{
+    letter-spacing: -1px;
+}
+
 /* main */
 #main{position:relative;max-width:2560px;margin-right:auto;margin-left:auto}
 #main .section{width:100%;color:#fff;box-sizing:border-box; padding-top: 70px;}

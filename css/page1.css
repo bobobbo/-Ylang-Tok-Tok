@@ -1,3 +1,7 @@
+p{
+    letter-spacing: -1px;
+}
+
 /* main */
 h2{font-family: bing;}
 #main{position:relative;max-width:2560px;margin-right:auto;margin-left:auto}
